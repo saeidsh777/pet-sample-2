@@ -1,0 +1,40 @@
+@font-face {
+    font-family:Nunito-Regular ;
+    src: url(/src/assets/fonts/Nunito/Nunito-Regular.ttf);
+}
+@font-face {
+    font-family:Nunito-Medium ;
+    src: url(/src/assets/fonts/Nunito/Nunito-Medium.ttf);
+}
+@font-face {
+    font-family:Nunito-Bold ;
+    src: url(/src/assets/fonts/Nunito/Nunito-Bold.ttf);
+}
+@font-face {
+    font-family:Nunito-ExtraBold ;
+    src: url(/src/assets/fonts/Nunito/Nunito-ExtraBold.ttf);
+}
+
+:root{
+    /* Fonts */
+    --f-nunito-r: 'Nunito-Regular';
+    --f-nunito-m: 'Nunito-Medium' ;
+    --f-nunito-b: 'Nunito-Bold';
+    --f-nunito-xb: 'Nunito-ExtraBold';
+
+    /* Font-Size */
+    --fs-1r: 1rem;
+    --fs-1-2r: 1.2rem;
+    --fs-1-6r: 1.6rem;
+    --fs-3-6r: 6.6rem;
+    --fs-6r: 6rem;
+
+    /* colors */
+    --orange:#F66437;
+    --white:#FFFFFF;
+    --black:black;
+    --green:#7ABA59;
+    --grey:#F2F2F4;
+    --yellow:#FFC449;
+
+}
