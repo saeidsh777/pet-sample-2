@@ -25,16 +25,16 @@
     /* Font-Size */
     --fs-1r: 1rem;
     --fs-1-2r: 1.2rem;
-    --fs-1-6r: 1.6rem;
-    --fs-3-6r: 6.6rem;
-    --fs-6r: 6rem;
+    --fs-1-6r: 1.6rem !important;
+    --fs-3-6r: 3.6rem;
+    --fs-5r: 5rem;
 
     /* colors */
     --orange:#F66437;
     --white:#FFFFFF;
     --black:black;
     --green:#7ABA59;
-    --grey:#F2F2F4;
+    --gray:#F2F2F4;
     --yellow:#FFC449;
 
 }

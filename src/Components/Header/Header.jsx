@@ -1,16 +1,15 @@
-import React from 'react'
-import './Header.css'
-import { Link } from 'react-router-dom'
-export default function Header() {
+import React, { useRef } from "react";
+import TopBar from "../TopBar/TopBar";
+
+import "./Header.css";
+
+export default function Header({children}) {
+  
+  
   return (
-    <header className='header'>
-      <div className="container">
-        <div className="row">
-          <Link to="/">
-            
-          </Link>
-        </div>
-      </div>
+    <header className="header">
+      <TopBar/>
+      {children}
     </header>
-  )
+  );
 }
