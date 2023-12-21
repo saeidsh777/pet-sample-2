@@ -1,16 +1,30 @@
 .top-bar {
+  padding: .5rem 0;
   background-color: var(--white);
   position: fixed;
   z-index: 100;
   left: 0;
   top: 0;
   width: 100%;
-  box-shadow: 0 5px 5px rgba(207, 207, 207, 0.285);
+  transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
 }
 
 .header-logo-box {
   width: 3rem;
   height: 3rem;
+  transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+}
+.header-logo-box-scroll {
+  width: 2.5rem;
+  height: 2.5rem;
 }
 
 .menu-icon-box {

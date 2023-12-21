@@ -1,0 +1,19 @@
+@media only screen and (max-width: 1200px) {
+  .ps-c {
+    padding: 0 2rem 0 6rem;
+  }
+
+  .pe-c {
+    padding: 0 6rem 0 2rem;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .ps-c {
+    padding: 0;
+  }
+
+  .pe-c {
+    padding: 0 ;
+  }
+}

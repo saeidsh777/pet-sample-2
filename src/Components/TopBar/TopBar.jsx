@@ -1,16 +1,32 @@
-import React, { useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import "./TopBar.css";
 import { Link } from "react-router-dom";
 import { List } from "react-bootstrap-icons";
 export default function TopBar() {
   const topBarElm = useRef();
   const menuExpandElm = useRef();
+  const headerLogoBox = useRef();
+
+  useEffect(() => {
+    let addShadowTopBar = window.addEventListener("scroll", () => {
+      if (window.scrollY > 100) {
+        topBarElm.current.classList.add("shadow-sm");
+        headerLogoBox.current.classList.add("header-logo-box-scroll");
+      } else {
+        topBarElm.current.classList.remove("shadow-sm");
+        headerLogoBox.current.classList.remove("header-logo-box-scroll");
+      }
+    });
+
+    return () => {
+      removeEventListener("scroll", addShadowTopBar);
+    };
+  }, []);
 
   function showMenu() {
-    menuExpandElm.current.getAttribute("data-expand");
     menuExpandElm.current.classList.toggle("show-menu-expand");
   }
-  
+
   return (
     <div ref={topBarElm} className="top-bar">
       <div className="container">
@@ -18,7 +34,7 @@ export default function TopBar() {
           <div className="col-6">
             <div className="left-header">
               <Link to="/" className="d-flex align-items-center gap-2">
-                <div className="header-logo-box">
+                <div className="header-logo-box" ref={headerLogoBox}>
                   <img
                     className="img-fit"
                     src="/images/header-logo.png"
@@ -62,11 +78,7 @@ export default function TopBar() {
         </div>
       </div>
 
-      <div
-        ref={menuExpandElm}
-        className="menu-expand d-lg-none"
-        data-expand={true}
-      >
+      <div ref={menuExpandElm} className="menu-expand d-lg-none">
         <nav className="p-3">
           <ul className="mb-0 p-0 d-flex flex-column justify-content-center gap-2">
             <li className="d-flex justify-content-center">
