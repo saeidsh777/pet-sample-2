@@ -8,7 +8,7 @@ export default function OurFeature() {
         <div className="row">
           <h1 className="text-center">Our Features</h1>
 
-          <div className="row">
+          <div className="row mt-5">
             <div className="d-flex justify-content-center col-12 col-lg-6 col-xl-4">
               <Card
                 bgColor="#7aba59"
