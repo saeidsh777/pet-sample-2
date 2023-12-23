@@ -25,6 +25,7 @@ h1{
 }
 
 h2 {
+    font-family: var(--f-nunito-b);
     font-size: var(--fs-3-6r);
 }
 

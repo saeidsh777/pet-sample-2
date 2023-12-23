@@ -30,7 +30,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="col-12 col-lg-7">
+            <div className="col-12 col-lg-7 pe-0">
               <img
                 className="img-fit"
                 src="/images/img-1.png"

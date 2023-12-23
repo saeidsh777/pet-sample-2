@@ -117,7 +117,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  right: 3rem;
+  right: 2rem;
   top: 0;
   background-color: var(--white);
 }
