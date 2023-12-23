@@ -1,5 +1,3 @@
-
-
 *,::after,::before{
     margin: 0;
     padding: 0;
@@ -29,8 +27,8 @@ h1{
 h2 {
     font-size: var(--fs-3-6r);
 }
+
 h3 {
-    font-family: var(--f-nunito-b);
     font-family: var(--f-nunito-b);
     font-size: var(--fs-1-6r);
 }

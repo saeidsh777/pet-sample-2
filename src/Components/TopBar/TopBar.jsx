@@ -11,9 +11,11 @@ export default function TopBar() {
     let addShadowTopBar = window.addEventListener("scroll", () => {
       if (window.scrollY > 100) {
         topBarElm.current.classList.add("shadow-sm");
+        topBarElm.current.classList.add("top-bar-scroll");
         headerLogoBox.current.classList.add("header-logo-box-scroll");
       } else {
         topBarElm.current.classList.remove("shadow-sm");
+        topBarElm.current.classList.remove("top-bar-scroll");
         headerLogoBox.current.classList.remove("header-logo-box-scroll");
       }
     });

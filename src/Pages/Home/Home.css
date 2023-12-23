@@ -1,3 +1,12 @@
-.home-header-banner{
-    padding: 5rem 0;
+.home-header-banner {
+  padding: 4rem 0;
 }
+
+.header-icon {
+  font-size: var(--fs-5r);
+}
+
+.header-icon-parent {
+  border-right: 1px solid rgb(191, 191, 191);
+}
+
