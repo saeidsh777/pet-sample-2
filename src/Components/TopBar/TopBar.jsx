@@ -35,16 +35,18 @@ export default function TopBar() {
         <div className="row align-items-center">
           <div className="col-6">
             <div className="left-header">
-              <Link to="/" className="d-flex align-items-center gap-2">
-                <div className="header-logo-box" ref={headerLogoBox}>
+              <div className="d-flex align-items-center gap-2">
+                <Link to="/" className="header-logo-box" ref={headerLogoBox}>
                   <img
                     className="img-fit"
                     src="/images/header-logo.png"
                     alt="logo"
                   />
-                </div>
-                <h3 className="mb-0">Pets</h3>
-              </Link>
+                </Link>
+                <h3 className="mb-0">
+                  <Link to="/">Pets</Link>
+                </h3>
+              </div>
             </div>
           </div>
 
