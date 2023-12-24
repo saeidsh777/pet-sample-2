@@ -5,7 +5,7 @@
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
   background-color: var(--gray);
-  padding: 3rem;
+  /* padding: 3rem; */
 }
 
 .care-price {
@@ -18,9 +18,9 @@
 }
 
 .pet-care-card.orng-b{
-    transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -o-transform: scale(1.2);
+    transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    -moz-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    -o-transform: scale(1.15);
 }

@@ -10,6 +10,8 @@ import Activities from "../../Components/Activities/Activities";
 import Animals from "../../Components/Animals/Animals";
 import Comments from "../../Components/Comments/Comments";
 import PetCare from "../../Components/PetCare/PetCare";
+import CheckInTime from "../../Components/CheckInTime/CheckInTime";
+import WeStand from "../../Components/WeStand/WeStand";
 export default function Home() {
   return (
     <>
@@ -32,7 +34,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="d-flex justify-content-center justify-content-lg-start">
-                <BtnBone />
+                <BtnBone type="Link" title="BOOK NOW" />
               </div>
             </div>
 
@@ -86,13 +88,17 @@ export default function Home() {
           </div>
         </section>
 
-        <Activities/>
+        <Activities />
 
-        <Animals/>
+        <Animals />
 
-        <Comments/>
+        <Comments />
 
-        <PetCare/>
+        <PetCare />
+
+        <CheckInTime />
+
+        <WeStand/>
       </main>
     </>
   );

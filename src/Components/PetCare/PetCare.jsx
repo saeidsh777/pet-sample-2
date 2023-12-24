@@ -8,7 +8,7 @@ export default function PetCare() {
     <section className="pet-care mb-5">
       <div className="container">
         <div className="row align-items-stretch">
-          <div className="col-12 col-lg-3">
+          <div className="col-12 col-lg-3 mt-3 mt-lg-0">
             <h5 className="orng-t mb-3">BRING YOUR PET</h5>
             <h2 className="mb-3">The Best Choice</h2>
             <p className="fs-1-2r mb-3">
@@ -20,14 +20,14 @@ export default function PetCare() {
             </Link>
           </div>
 
-          <div className="col-12 col-lg-3">
-            <div className="pet-care-card">
+          <div className="col-12 col-lg-3 mt-3 mt-lg-0">
+            <div className="pet-care-card d-flex flex-column h-100 p-5 p-lg-3 p-xl-5">
               <h5 className="orng-t mb-3">PET CARE</h5>
-              <h2 className="mb-3">1 Day</h2>
+              <h2 className="mb-3 text-nowrap">1 Day</h2>
               <h2>
                 <House />
               </h2>
-              <ul className="m-0 p-0 mt-4">
+              <ul className="m-0 p-0 mt-4 flex">
                 <li className="d-flex justify-content-between align-items-center mb-2">
                   <p className="m-0">Double room</p>
                   <span className="green-t">&#10003;</span>
@@ -52,14 +52,14 @@ export default function PetCare() {
             </div>
           </div>
 
-          <div className="col-12 col-lg-3">
-            <div className="pet-care-card orng-b">
+          <div className="col-12 col-lg-3 mt-3 mt-lg-0">
+            <div className="pet-care-card d-flex flex-column orng-b h-100 p-5 p-lg-3 p-xl-5 ">
               <h5 className="white-t mb-3">PET CARE</h5>
-              <h2 className="white-t mb-3">10 Day</h2>
+              <h2 className="white-t mb-3 text-nowrap">10 Day</h2>
               <h2>
                 <House />
               </h2>
-              <ul className="m-0 p-0 mt-4">
+              <ul className="m-0 p-0 mt-4 flex">
                 <li className="d-flex justify-content-between align-items-center mb-2">
                   <p className="m-0 white-t">Double room</p>
                   <span className="white-t">&#10003;</span>
@@ -79,19 +79,19 @@ export default function PetCare() {
               </ul>
               <div className="mt-5 care-price-box white-t">
                 <span className="align-top fw-bold fs-2">$</span>
-                <span className="care-price">50</span>
+                <span className="care-price">350</span>
               </div>
             </div>
           </div>
 
-          <div className="col-12 col-lg-3">
-            <div className="pet-care-card">
+          <div className="col-12 col-lg-3 mt-3 mt-lg-0">
+            <div className="pet-care-card d-flex flex-column h-100 p-5 p-lg-3 p-xl-5">
               <h5 className="orng-t mb-3">PET CARE</h5>
-              <h2 className="mb-3">20 Day</h2>
+              <h2 className="mb-3 text-nowrap">20 Day</h2>
               <h2>
                 <House />
               </h2>
-              <ul className="m-0 p-0 mt-4">
+              <ul className="m-0 p-0 mt-4 flex">
                 <li className="d-flex justify-content-between align-items-center mb-2">
                   <p className="m-0">Double room</p>
                   <span className="green-t">&#10003;</span>
@@ -108,10 +108,14 @@ export default function PetCare() {
                   <p className="m-0">Pet TV</p>
                   <span className="orng-t">&#x2715;</span>
                 </li>
+                <li className="d-flex justify-content-between align-items-center mb-2">
+                  <p className="m-0">Pet TV</p>
+                  <span className="orng-t">&#x2715;</span>
+                </li>
               </ul>
               <div className="mt-5 care-price-box">
                 <span className="align-top fw-bold fs-2">$</span>
-                <span className="care-price">50</span>
+                <span className="care-price">550</span>
               </div>
             </div>
           </div>
