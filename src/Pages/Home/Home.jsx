@@ -14,6 +14,7 @@ import CheckInTime from "../../Components/CheckInTime/CheckInTime";
 import WeStand from "../../Components/WeStand/WeStand";
 import DogBoarding from "../../Components/DogBoarding/DogBoarding";
 import CatBoarding from "../../Components/CatBoarding/CatBoarding";
+import PetBoardingOff from "../../Components/PetBoardingOff/PetBoardingOff";
 export default function Home() {
   return (
     <>
@@ -103,8 +104,10 @@ export default function Home() {
         <WeStand/>
 
         <DogBoarding/>
-        
+
         <CatBoarding/>
+
+        <PetBoardingOff/>
       </main>
     </>
   );

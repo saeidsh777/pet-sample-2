@@ -126,6 +126,10 @@
   word-spacing: nowrap;
 }
 
+.word-break{
+  word-break: break-word;
+}
+
 .accordion-boarding{
   padding: 0 2rem ;
 }

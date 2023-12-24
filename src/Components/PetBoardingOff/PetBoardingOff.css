@@ -1,0 +1,23 @@
+.pet-off {
+  background-color: var(--yellow);
+  border-radius: 0 30px 30px 30px;
+  -webkit-border-radius: 0 30px 30px 30px;
+  -moz-border-radius: 0 30px 30px 30px;
+  -ms-border-radius: 0 30px 30px 30px;
+  -o-border-radius: 0 30px 30px 30px;
+}
+
+.pet-off-img {
+  position: static;
+  width: 80%;
+}
+
+.pet-off-img-container {
+  overflow: hidden;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border: 5px solid var(--white);
+}

@@ -31,3 +31,21 @@
     padding: 0 2rem 0 0;
   }
 }
+
+@media only screen and (min-width: 1200px) {
+  .pet-off-img-container {
+  overflow: visible;
+  border-radius: none;
+  -webkit-border-radius: none;
+  -moz-border-radius: none;
+  -ms-border-radius: none;
+  -o-border-radius: none;
+  border: none;
+}
+  .pet-off-img {
+    position: absolute;
+    width: 120%;
+    bottom: -1.5rem;
+    left: -1rem;
+  }
+}
