@@ -6,6 +6,7 @@ import BtnBone from "../../Components/BtnBone/BtnBone";
 import OurFeature from "../../Components/OurFeature/OurFeature";
 import WeCan from "../../Components/WeCan/WeCan";
 import CardServices from "../../Components/CardServices/CardServices";
+import Activities from "../../Components/Activities/Activities";
 export default function Home() {
   return (
     <>
@@ -81,6 +82,8 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        <Activities/>
       </main>
     </>
   );
