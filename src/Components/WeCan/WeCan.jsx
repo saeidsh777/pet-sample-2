@@ -5,7 +5,7 @@ import "./WeCan.css";
 
 export default function WeCan() {
   return (
-    <div className="py-6">
+    <section className="py-6  we-can">
       <div className="row align-content-center align-items-center">
         <div className="col-12 col-lg-7 pe-0">
           <img className="img-fit" src="/images/img-2.png" alt="animal" />
@@ -21,6 +21,6 @@ export default function WeCan() {
           <Link to="/" className="btn-c1 d-block m-auto m-lg-0">BOOK NEW</Link>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

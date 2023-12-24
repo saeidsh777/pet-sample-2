@@ -8,6 +8,7 @@ import WeCan from "../../Components/WeCan/WeCan";
 import CardServices from "../../Components/CardServices/CardServices";
 import Activities from "../../Components/Activities/Activities";
 import Animals from "../../Components/Animals/Animals";
+import Comments from "../../Components/Comments/Comments";
 export default function Home() {
   return (
     <>
@@ -87,6 +88,8 @@ export default function Home() {
         <Activities/>
 
         <Animals/>
+
+        <Comments/>
       </main>
     </>
   );

@@ -111,6 +111,10 @@
   font-size: var(--fs-3-6r);
 }
 
+.fs-6r{
+  font-size: 6rem;
+}
+
 .flex{
   flex: 1 0 0 !important;
 }
