@@ -17,11 +17,17 @@
     padding: 0;
   }
 
-  .pet-care-card.orng-b{
+  .pet-care-card.orng-b {
     transform: scale(1);
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
     -ms-transform: scale(1);
     -o-transform: scale(1);
+  }
 }
+
+@media only screen and (min-width: 992px) {
+  .accordion-boarding {
+    padding: 0 2rem 0 0;
+  }
 }

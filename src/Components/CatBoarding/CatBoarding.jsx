@@ -9,7 +9,7 @@ export default function CatBoarding() {
           <h2>
             Cat <span className="orng-t">Boarding</span>
           </h2>
-          <div className="pe-0 pe-lg-4 mt-5">
+          <div className="px-5 px-lg-0 mt-5">
             <Accordion className="mb-2">
               <Accordion.Item eventKey="0">
                 <Accordion.Header>
