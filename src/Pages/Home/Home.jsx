@@ -4,6 +4,8 @@ import { Github } from "react-bootstrap-icons";
 import "./Home.css";
 import BtnBone from "../../Components/BtnBone/BtnBone";
 import OurFeature from "../../Components/OurFeature/OurFeature";
+import WeCan from "../../Components/WeCan/WeCan";
+import CardServices from "../../Components/CardServices/CardServices";
 export default function Home() {
   return (
     <>
@@ -40,8 +42,46 @@ export default function Home() {
           </div>
         </div>
       </Header>
+      <main>
+        <OurFeature />
 
-      <OurFeature />
+        <WeCan />
+
+        <section className="services mb-5">
+          <div className="container">
+            <div className="row align-items-stretch">
+              <div className="col-12 col-md-6 col-xl-3 d-flex mt-3 mt-xl-0">
+                <CardServices
+                  icon="house"
+                  title="Pets Boarding"
+                  body="Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nam nisi sunt assumenda quasi ipsa excepturi aperiam at in rem?"
+                />
+              </div>
+              <div className="col-12 col-md-6 col-xl-3 d-flex mt-3 mt-xl-0">
+                <CardServices
+                  icon="apple"
+                  title="Healthy Meals"
+                  body="Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nam nisi sunt assumenda quasi ipsa excepturi aperiam at in rem?"
+                />
+              </div>
+              <div className="col-12 col-md-6 col-xl-3 d-flex mt-3 mt-xl-0">
+                <CardServices
+                  icon="global"
+                  title="Activity Games"
+                  body="Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nam nisi sunt assumenda quasi ipsa excepturi aperiam at in rem?"
+                />
+              </div>
+              <div className="col-12 col-md-6 col-xl-3 d-flex mt-3 mt-xl-0">
+                <CardServices
+                  icon="github"
+                  title="Pet Taxi"
+                  body="Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nam nisi sunt assumenda quasi ipsa excepturi aperiam at in rem?"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
     </>
   );
 }

@@ -66,11 +66,26 @@
 }
 
 .ps-c {
-  padding: 0 2rem 0 8rem;
+  padding: 0 2rem 0 6rem;
 }
 
 .pe-c {
-  padding: 0 8rem 0 2rem;
+  padding: 0 6rem 0 2rem;
 }
 
+.py-6{
+  padding: 7rem 0;
+}
+
+.fs-1-2r{
+  font-size: var(--fs-1-2r);
+}
+
+.fs-3-6r{
+  font-size: var(--fs-3-6r);
+}
+
+.flex{
+  flex: 1 0 0 !important;
+}
 
