@@ -12,6 +12,8 @@ import Comments from "../../Components/Comments/Comments";
 import PetCare from "../../Components/PetCare/PetCare";
 import CheckInTime from "../../Components/CheckInTime/CheckInTime";
 import WeStand from "../../Components/WeStand/WeStand";
+import DogBoarding from "../../Components/DogBoarding/DogBoarding";
+import CatBoarding from "../../Components/CatBoarding/CatBoarding";
 export default function Home() {
   return (
     <>
@@ -99,6 +101,10 @@ export default function Home() {
         <CheckInTime />
 
         <WeStand/>
+
+        <DogBoarding/>
+        
+        <CatBoarding/>
       </main>
     </>
   );

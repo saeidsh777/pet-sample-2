@@ -17,6 +17,9 @@
 .gray-b {
   background-color: var(--gray);
 }
+.green-b {
+  background-color: var(--green);
+}
 
 .link-item-menu {
   font-size: var(--fs-1r);
