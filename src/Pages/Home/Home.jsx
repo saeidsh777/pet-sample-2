@@ -9,6 +9,7 @@ import CardServices from "../../Components/CardServices/CardServices";
 import Activities from "../../Components/Activities/Activities";
 import Animals from "../../Components/Animals/Animals";
 import Comments from "../../Components/Comments/Comments";
+import PetCare from "../../Components/PetCare/PetCare";
 export default function Home() {
   return (
     <>
@@ -90,6 +91,8 @@ export default function Home() {
         <Animals/>
 
         <Comments/>
+
+        <PetCare/>
       </main>
     </>
   );

@@ -15,7 +15,7 @@ export default function Comments() {
             adipisci ut voluptatem maxime
           </h3>
 
-          <h4 className="orng-t">Boby James</h4>
+          <h4 className="orng-t fw-bold">Boby James</h4>
           <h4>Hamster</h4>
         </div>
       </div>
