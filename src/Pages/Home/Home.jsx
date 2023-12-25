@@ -15,6 +15,7 @@ import WeStand from "../../Components/WeStand/WeStand";
 import DogBoarding from "../../Components/DogBoarding/DogBoarding";
 import CatBoarding from "../../Components/CatBoarding/CatBoarding";
 import PetBoardingOff from "../../Components/PetBoardingOff/PetBoardingOff";
+import ContactUs from "../../Components/ContactUs/ContactUs";
 export default function Home() {
   return (
     <>
@@ -108,6 +109,8 @@ export default function Home() {
         <CatBoarding/>
 
         <PetBoardingOff/>
+
+        <ContactUs/>
       </main>
     </>
   );
