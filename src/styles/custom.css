@@ -20,6 +20,9 @@
 .green-b {
   background-color: var(--green);
 }
+.white-b {
+  background-color: var(--white);
+}
 
 .link-item-menu {
   font-size: var(--fs-1r);
@@ -42,7 +45,7 @@
   border-radius: 0 20px 20px 20px;
   background-color: transparent;
   border: 2px solid var(--orange);
-  padding: .4rem 1rem;
+  padding: .7rem 1rem;
   font-size: var(--fs-1-2r);
   font-family: var(--f-nunito-m);
   width: fit-content;
@@ -68,7 +71,7 @@
   box-shadow: 0 0 0 100px var(--orange) inset;
   color: var(--white);
   border: 2px solid var(--orange);
-  padding: 0.4rem 1rem;
+  padding: 0.7rem 1rem;
   font-size: var(--fs-1-2r);
   font-family: var(--f-nunito-m);
   width: fit-content;

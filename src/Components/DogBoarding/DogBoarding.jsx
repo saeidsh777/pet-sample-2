@@ -3,7 +3,7 @@ import Accordion from "react-bootstrap/Accordion";
 import './DogBoarding.css'
 export default function DogBoarding() {
   return (
-    <section className="py-6 dog-boarding">
+    <section className="py-6 dog-boarding overflow-x-hidden">
       <div className="row align-content-center align-items-center">
         <div className="col-12 col-lg-7 pe-0">
           <img className="img-fit" src="/images/img-2.png" alt="animal" />

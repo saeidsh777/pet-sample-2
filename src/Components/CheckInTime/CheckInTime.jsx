@@ -4,7 +4,7 @@ import { Stopwatch, GlobeAmericas } from "react-bootstrap-icons";
 import BtnBone from "../BtnBone/BtnBone";
 export default function CheckInTime() {
   return (
-    <section className="check-in-time py-6">
+    <section className="check-in-time py-6 overflow-x-hidden">
       <div className="row align-content-center align-items-center">
         <div className="col-12 col-lg-5 text-center text-lg-start mt-5 mt-lg-0 ps-c">
           <h2>Check-in Time</h2>

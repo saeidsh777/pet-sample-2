@@ -3,7 +3,7 @@ import "./CatBoarding.css";
 import { Accordion } from "react-bootstrap";
 export default function CatBoarding() {
   return (
-    <section className="cat-boarding">
+    <section className="cat-boarding overflow-x-hidden">
       <div className="row align-content-center align-items-center">
         <div className="col-12 col-lg-5 text-center text-lg-start mt-5 mt-lg-0 ps-c order-1 order-lg-0">
           <h2>

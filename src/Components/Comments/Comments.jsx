@@ -3,7 +3,7 @@ import "./Comments.css";
 import { Quote } from "react-bootstrap-icons";
 export default function Comments() {
   return (
-    <section className="py-6 comments">
+    <section className="py-6 comments overflow-x-hidden">
       <div className="row align-content-center align-items-center">
         <div className="col-12 col-lg-7 pe-0">
           <img className="img-fit" src="/images/img-4.png" alt="animal" />

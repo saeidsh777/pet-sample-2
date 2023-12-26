@@ -1,10 +1,12 @@
-import React, { useEffect, useRef, useState } from "react";
-import { CaretDownFill } from "react-bootstrap-icons";
 import SelectInput from "../SelectInput/SelectInput";
 
 import "./ContactUsForm.css";
+import Input from "../Input/Input";
 
 export default function ContactUsForm() {
+  const onSubmitForm = (e) => {
+    e.preventDefault();
+  };
 
   return (
     <div className="contact-us-form p-5 gray-b">
@@ -12,14 +14,20 @@ export default function ContactUsForm() {
         <h5 className="orng-t">PLANNING A VACATION?</h5>
         <h2>Contact Us</h2>
 
-        <SelectInput />
+        <div className="form-inputs d-flex flex-column gap-3">
+          <SelectInput />
 
-        <input
-          className="input"
-          type="number"
-          min={0}
-          max={100}
-        />
+          <Input type="number" />
+
+          <Input type="email" />
+
+          <button
+            className="btn-c2 w-100 d-block"
+            onClick={(e) => onSubmitForm(e)}
+          >
+            SEND
+          </button>
+        </div>
       </form>
     </div>
   );

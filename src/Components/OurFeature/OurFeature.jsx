@@ -3,7 +3,7 @@ import "./OurFeature.css";
 import Card from "../Card/Card";
 export default function OurFeature() {
   return (
-    <section className="our-Feature">
+    <section className="our-Feature overflow-x-hidden">
       <div className="container">
         <div className="row">
           <h1 className="text-center">Our Features</h1>

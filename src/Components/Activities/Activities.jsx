@@ -5,7 +5,7 @@ import BtnBone from "../BtnBone/BtnBone";
 import { Link } from "react-router-dom";
 export default function Activities() {
   return (
-    <section className="activities">
+    <section className="activities overflow-x-hidden">
       <div className="py-6">
         <div className="row align-content-center align-items-center">
           <div className="col-12 col-lg-5 text-center text-lg-start mt-5 mt-lg-0 ps-c">

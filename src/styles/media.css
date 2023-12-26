@@ -24,12 +24,21 @@
     -ms-transform: scale(1);
     -o-transform: scale(1);
   }
+
+  .img-contact-box{
+    width: 18rem;
+    height: 18rem;
+  }
 }
 
 @media only screen and (min-width: 992px) {
   .accordion-boarding {
     padding: 0 2rem 0 0;
   }
+  .contact-us-form {
+    max-width: 500px;
+  }
+
 }
 
 @media only screen and (min-width: 1200px) {

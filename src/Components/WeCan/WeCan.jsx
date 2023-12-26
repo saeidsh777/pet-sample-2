@@ -5,7 +5,7 @@ import "./WeCan.css";
 
 export default function WeCan() {
   return (
-    <section className="py-6  we-can">
+    <section className="py-6 we-can overflow-x-hidden">
       <div className="row align-content-center align-items-center">
 
         <div className="col-12 col-lg-7 pe-0">

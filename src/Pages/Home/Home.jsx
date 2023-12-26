@@ -20,7 +20,7 @@ export default function Home() {
   return (
     <>
       <Header>
-        <div className="home-header-banner">
+        <div className="home-header-banner overflow-x-hidden">
           <div className="row align-content-center align-items-center">
             <div className="col-12 col-lg-5 text-center text-lg-start mt-5 mt-lg-0 ps-c">
               <h1>Pets Boarding Services</h1>
@@ -57,7 +57,7 @@ export default function Home() {
 
         <WeCan />
 
-        <section className="services mb-5">
+        <section className="services mb-5 overflow-x-hidden">
           <div className="container">
             <div className="row align-items-stretch">
               <div className="col-12 col-md-6 col-xl-3 d-flex mt-3 mt-xl-0">
