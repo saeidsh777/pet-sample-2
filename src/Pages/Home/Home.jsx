@@ -16,6 +16,7 @@ import DogBoarding from "../../Components/DogBoarding/DogBoarding";
 import CatBoarding from "../../Components/CatBoarding/CatBoarding";
 import PetBoardingOff from "../../Components/PetBoardingOff/PetBoardingOff";
 import ContactUs from "../../Components/ContactUs/ContactUs";
+import LocMap from "../../Components/LocMap/LocMap";
 export default function Home() {
   return (
     <>
@@ -111,6 +112,8 @@ export default function Home() {
         <PetBoardingOff/>
 
         <ContactUs/>
+
+        <LocMap/>
       </main>
     </>
   );

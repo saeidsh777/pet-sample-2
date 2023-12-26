@@ -25,9 +25,14 @@
     -o-transform: scale(1);
   }
 
-  .img-contact-box{
+  .img-contact-box {
     width: 18rem;
     height: 18rem;
+  }
+
+  .our-office {
+    position: static;
+    margin: 0 auto;
   }
 }
 
@@ -38,7 +43,6 @@
   .contact-us-form {
     max-width: 500px;
   }
-
 }
 
 @media only screen and (min-width: 1200px) {

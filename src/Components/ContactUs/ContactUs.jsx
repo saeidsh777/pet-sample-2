@@ -1,6 +1,7 @@
 import React from "react";
 import "./ContactUs.css";
 import ContactUsForm from "../ContactUsForm/ContactUsForm";
+import { Cloud, Github, GlobeAmericas, House } from "react-bootstrap-icons";
 export default function ContactUs() {
   return (
     <section className="contact-us overflow-x-hidden">
@@ -11,8 +12,51 @@ export default function ContactUs() {
               <img className="img-fit" src="/images/img-8.jpg" alt="animal" />
             </div>
           </div>
-          <div className="col-12 col-lg-6 mt-5 mt-lg-0">
+          <div className="col-12 col-lg-6 my-5 mt-lg-0">
             <ContactUsForm />
+          </div>
+
+          <div className="col-12 mt-5">
+            <h2 className="text-center word-break">Our Achievements</h2>
+
+            <div className="row mt-5">
+              <div className="col-6 col-lg-3">
+                <div className="d-flex flex-column align-items-center justify-content-center justify-content-lg-start">
+                  <p>STARTED</p>
+                  <div className="d-flex flex-column align-items-center flex-md-row gap-3">
+                    <House className="orng-t fs-3-6r" />
+                    <h2 className="mb-0">213</h2>
+                  </div>
+                </div>
+              </div>
+              <div className="col-6 col-lg-3">
+                <div className="d-flex flex-column align-items-center justify-content-center justify-content-lg-start">
+                  <p>PETS</p>
+                  <div className="d-flex flex-column align-items-center flex-md-row gap-3">
+                    <Github className="orng-t fs-3-6r" />
+                    <h2 className="mb-0">843</h2>
+                  </div>
+                </div>
+              </div>
+              <div className="col-6 col-lg-3 mt-5 mt-lg-0">
+                <div className="d-flex flex-column align-items-center justify-content-center justify-content-lg-start">
+                  <p>PLAY DAYS</p>
+                  <div className="d-flex flex-column align-items-center flex-md-row gap-3">
+                    <GlobeAmericas className="orng-t fs-3-6r" />
+                    <h2 className="mb-0">639</h2>
+                  </div>
+                </div>
+              </div>
+              <div className="col-6 col-lg-3 mt-5 mt-lg-0">
+                <div className="d-flex flex-column align-items-center justify-content-center justify-content-lg-start">
+                  <p>BATHS</p>
+                  <div className="d-flex flex-column align-items-center flex-md-row gap-3">
+                    <Cloud className="orng-t fs-3-6r" />
+                    <h2 className="mb-0">321</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
