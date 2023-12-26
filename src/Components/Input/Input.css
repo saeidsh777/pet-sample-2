@@ -17,6 +17,7 @@
   display: block;
   width: 100%;
   font-size: 1.2rem;
+  text-align: center;
 }
 .input:hover {
   border: 1px solid var(--orange);
