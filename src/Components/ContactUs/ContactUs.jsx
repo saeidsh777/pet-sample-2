@@ -4,7 +4,7 @@ import ContactUsForm from "../ContactUsForm/ContactUsForm";
 import { Cloud, Github, GlobeAmericas, House } from "react-bootstrap-icons";
 export default function ContactUs() {
   return (
-    <section className="contact-us overflow-x-hidden">
+    <section className="contact-us overflow-hidden">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-12 col-lg-6">

@@ -17,7 +17,6 @@
   display: block;
   width: 100%;
   font-size: 1.2rem;
-  text-align: center;
 }
 .input:hover {
   border: 1px solid var(--orange);
@@ -44,4 +43,8 @@ input[type="number"] {
  -moz-border-radius: 4px;
  -ms-border-radius: 4px;
  -o-border-radius: 4px;
+}
+
+.input-c{
+  text-align: center;
 }
