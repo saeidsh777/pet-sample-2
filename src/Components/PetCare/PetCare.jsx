@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./PetCare.css";
 import { House } from "react-bootstrap-icons";
+
+import "./PetCare.css";
 
 export default function PetCare() {
   return (

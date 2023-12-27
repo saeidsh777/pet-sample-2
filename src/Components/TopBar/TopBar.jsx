@@ -1,7 +1,9 @@
 import React, { useEffect, useRef } from "react";
-import "./TopBar.css";
 import { Link } from "react-router-dom";
 import { List } from "react-bootstrap-icons";
+
+import "./TopBar.css";
+
 export default function TopBar() {
   const topBarElm = useRef();
   const menuExpandElm = useRef();

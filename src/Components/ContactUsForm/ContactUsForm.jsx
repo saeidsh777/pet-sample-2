@@ -1,7 +1,7 @@
 import SelectInput from "../SelectInput/SelectInput";
+import Input from "../Input/Input";
 
 import "./ContactUsForm.css";
-import Input from "../Input/Input";
 
 export default function ContactUsForm() {
   const onSubmitForm = (e) => {

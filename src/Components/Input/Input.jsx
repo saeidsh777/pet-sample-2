@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { CaretDownFill, CaretUpFill } from "react-bootstrap-icons";
 
-import './Input.css'
+import "./Input.css";
 
-export default function Input({type}) {
+export default function Input({ type }) {
   const [counter, setCounter] = useState("");
 
   const changeCount = (action) => {

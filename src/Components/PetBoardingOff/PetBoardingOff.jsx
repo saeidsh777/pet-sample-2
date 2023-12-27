@@ -1,6 +1,8 @@
 import React from "react";
-import "./PetBoardingOff.css";
 import BtnBone from "../BtnBone/BtnBone";
+
+import "./PetBoardingOff.css";
+
 export default function PetBoardingOff() {
   return (
     <section className="pet-boarding-off py-6 mt-5">

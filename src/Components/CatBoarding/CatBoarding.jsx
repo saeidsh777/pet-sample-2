@@ -1,6 +1,8 @@
 import React from "react";
-import "./CatBoarding.css";
 import { Accordion } from "react-bootstrap";
+
+import "./CatBoarding.css";
+
 export default function CatBoarding() {
   return (
     <section className="cat-boarding overflow-x-hidden">

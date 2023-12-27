@@ -1,5 +1,5 @@
 import React from "react";
-import "./CardServices.css";
+import { Link } from "react-router-dom";
 import {
   ArrowRight,
   Github,
@@ -7,7 +7,9 @@ import {
   House,
   Apple,
 } from "react-bootstrap-icons";
-import { Link } from "react-router-dom";
+
+import "./CardServices.css";
+
 export default function CardServices({ icon, title, body }) {
   return (
     <div className="card-services d-flex flex-column">

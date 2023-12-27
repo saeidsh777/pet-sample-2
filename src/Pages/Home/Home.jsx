@@ -1,7 +1,5 @@
 import React from "react";
 import Header from "../../Components/Header/Header";
-import { Github } from "react-bootstrap-icons";
-import "./Home.css";
 import BtnBone from "../../Components/BtnBone/BtnBone";
 import OurFeature from "../../Components/OurFeature/OurFeature";
 import WeCan from "../../Components/WeCan/WeCan";
@@ -17,6 +15,11 @@ import CatBoarding from "../../Components/CatBoarding/CatBoarding";
 import PetBoardingOff from "../../Components/PetBoardingOff/PetBoardingOff";
 import ContactUs from "../../Components/ContactUs/ContactUs";
 import LocMap from "../../Components/LocMap/LocMap";
+
+import { Github } from "react-bootstrap-icons";
+
+import "./Home.css";
+
 export default function Home() {
   return (
     <>
@@ -53,11 +56,10 @@ export default function Home() {
           </div>
         </div>
       </Header>
+
       <main>
         <OurFeature />
-
         <WeCan />
-
         <section className="services mb-5 overflow-x-hidden">
           <div className="container">
             <div className="row align-items-stretch">
@@ -92,28 +94,17 @@ export default function Home() {
             </div>
           </div>
         </section>
-
         <Activities />
-
         <Animals />
-
         <Comments />
-
         <PetCare />
-
         <CheckInTime />
-
-        <WeStand/>
-
-        <DogBoarding/>
-
-        <CatBoarding/>
-
-        <PetBoardingOff/>
-
-        <ContactUs/>
-
-        <LocMap/>
+        <WeStand />
+        <DogBoarding />
+        <CatBoarding />
+        <PetBoardingOff />
+        <ContactUs />
+        <LocMap />
       </main>
     </>
   );

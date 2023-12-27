@@ -4,7 +4,6 @@ import { CaretDownFill } from "react-bootstrap-icons";
 import "./SelectInput.css";
 
 export default function SelectInput() {
-
   const [inputSelectValue, setInputSelectValue] = useState("Dog Boarding");
   const selectListElem = useRef();
   const selectTagElem = useRef();

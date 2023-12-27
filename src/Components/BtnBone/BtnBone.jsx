@@ -1,6 +1,8 @@
 import React from "react";
-import "./BtnBone.css";
 import { Link } from "react-router-dom";
+
+import "./BtnBone.css";
+
 export default function BtnBone({ type, title }) {
   return (
     <>
@@ -14,9 +16,7 @@ export default function BtnBone({ type, title }) {
       )}
 
       {type === "noLink" && (
-        <div
-          className="btn-bone d-flex align-items-center justify-content-center"
-        >
+        <div className="btn-bone d-flex align-items-center justify-content-center">
           <span className="link-btn-bone">{title}</span>
         </div>
       )}

@@ -5,12 +5,12 @@
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  animation: rotate-out .5s linear forwards;
-  -webkit-animation: rotate-out .5s linear forwards;
+  animation: rotate-out 0.5s linear forwards;
+  -webkit-animation: rotate-out 0.5s linear forwards;
 }
 .btn-bone:hover {
-  animation: rotate-in .5s linear forwards;
-  -webkit-animation: rotate-in .5s linear forwards;
+  animation: rotate-in 0.5s linear forwards;
+  -webkit-animation: rotate-in 0.5s linear forwards;
 }
 @keyframes rotate-in {
   0% {
@@ -26,14 +26,14 @@
     -moz-transform: rotate(-6deg);
     -ms-transform: rotate(-6deg);
     -o-transform: rotate(-6deg);
-}
+  }
   100% {
     transform: rotate(8deg);
     -webkit-transform: rotate(8deg);
     -moz-transform: rotate(8deg);
     -ms-transform: rotate(8deg);
     -o-transform: rotate(8deg);
-}
+  }
 }
 @keyframes rotate-out {
   0% {
@@ -42,21 +42,21 @@
     -moz-transform: rotate(8deg);
     -ms-transform: rotate(8deg);
     -o-transform: rotate(8deg);
-}
+  }
   10% {
     transform: rotate(-6deg);
     -webkit-transform: rotate(-6deg);
     -moz-transform: rotate(-6deg);
     -ms-transform: rotate(-6deg);
     -o-transform: rotate(-6deg);
-}
+  }
   100% {
     transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
     -o-transform: rotate(0deg);
-}
+  }
 }
 
 .link-btn-bone {

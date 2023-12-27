@@ -3,12 +3,10 @@ import TopBar from "../TopBar/TopBar";
 
 import "./Header.css";
 
-export default function Header({children}) {
-  
-  
+export default function Header({ children }) {
   return (
     <header className="header">
-      <TopBar/>
+      <TopBar />
       {children}
     </header>
   );

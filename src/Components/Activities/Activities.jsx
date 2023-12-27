@@ -1,8 +1,10 @@
 import React from "react";
-import "./Activities.css";
-import { Github, GlobeAmericas, Apple } from "react-bootstrap-icons";
-import BtnBone from "../BtnBone/BtnBone";
 import { Link } from "react-router-dom";
+import BtnBone from "../BtnBone/BtnBone";
+import { Github, GlobeAmericas, Apple } from "react-bootstrap-icons";
+
+import "./Activities.css";
+
 export default function Activities() {
   return (
     <section className="activities overflow-x-hidden">

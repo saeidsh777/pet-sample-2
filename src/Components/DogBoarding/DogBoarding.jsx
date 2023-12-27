@@ -1,6 +1,8 @@
-import React from 'react'
+import React from "react";
 import Accordion from "react-bootstrap/Accordion";
-import './DogBoarding.css'
+
+import "./DogBoarding.css";
+
 export default function DogBoarding() {
   return (
     <section className="py-6 dog-boarding overflow-x-hidden">

@@ -1,6 +1,8 @@
 import React from "react";
-import "./Comments.css";
 import { Quote } from "react-bootstrap-icons";
+
+import "./Comments.css";
+
 export default function Comments() {
   return (
     <section className="py-6 comments overflow-x-hidden">

@@ -1,5 +1,4 @@
 import React from "react";
-import "./Card.css";
 import { Link } from "react-router-dom";
 import {
   Apple,
@@ -7,6 +6,9 @@ import {
   Github,
   GlobeAmericas,
 } from "react-bootstrap-icons";
+
+import "./Card.css";
+
 export default function Card({ bgColor, title1, title2, d, icon }) {
   return (
     <div className="d-inline-block">

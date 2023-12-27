@@ -1,7 +1,9 @@
 import React from "react";
-import "./CheckInTime.css";
 import { Stopwatch, GlobeAmericas } from "react-bootstrap-icons";
 import BtnBone from "../BtnBone/BtnBone";
+
+import "./CheckInTime.css";
+
 export default function CheckInTime() {
   return (
     <section className="check-in-time py-6 overflow-x-hidden">
@@ -34,10 +36,7 @@ export default function CheckInTime() {
             </div>
           </div>
           <div className="d-flex justify-content-center justify-content-lg-start">
-            <BtnBone
-              type="noLink"
-              title="+1(800) 456 888"
-            />
+            <BtnBone type="noLink" title="+1(800) 456 888" />
           </div>
         </div>
 

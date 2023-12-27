@@ -1,6 +1,8 @@
 import React from "react";
-import "./LocMap.css";
 import { Alarm, Envelope } from "react-bootstrap-icons";
+
+import "./LocMap.css";
+
 export default function LocMap() {
   return (
     <section className="loc-map mt-5 position-relative">

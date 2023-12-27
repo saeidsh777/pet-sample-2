@@ -32,19 +32,19 @@ input[type="number"] {
   -moz-appearance: textfield;
 }
 
-.input::placeholder{
+.input::placeholder {
   opacity: 1;
 }
 
-.change-count{
- padding: .05rem .5rem;
- border-radius: 4px;
- -webkit-border-radius: 4px;
- -moz-border-radius: 4px;
- -ms-border-radius: 4px;
- -o-border-radius: 4px;
+.change-count {
+  padding: 0.05rem 0.5rem;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
 }
 
-.input-c{
+.input-c {
   text-align: center;
 }

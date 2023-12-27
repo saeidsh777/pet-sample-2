@@ -45,7 +45,7 @@
   border-radius: 0 20px 20px 20px;
   background-color: transparent;
   border: 2px solid var(--orange);
-  padding: .7rem 1rem;
+  padding: 0.7rem 1rem;
   font-size: var(--fs-1-2r);
   font-family: var(--f-nunito-m);
   width: fit-content;
@@ -105,35 +105,34 @@
   padding: 0 6rem 0 2rem;
 }
 
-.py-6{
+.py-6 {
   padding: 7rem 0;
 }
 
-.fs-1-2r{
+.fs-1-2r {
   font-size: var(--fs-1-2r);
 }
 
-.fs-3-6r{
+.fs-3-6r {
   font-size: var(--fs-3-6r);
 }
 
-.fs-6r{
+.fs-6r {
   font-size: 6rem;
 }
 
-.flex{
+.flex {
   flex: 1 0 0 !important;
 }
 
-.text-nowrap{
+.text-nowrap {
   word-spacing: nowrap;
 }
 
-.word-break{
+.word-break {
   word-break: break-word;
 }
 
-.accordion-boarding{
-  padding: 0 2rem ;
+.accordion-boarding {
+  padding: 0 2rem;
 }
-

@@ -1,5 +1,7 @@
 import React from "react";
+
 import "./WeStand.css";
+
 export default function WeStand() {
   return (
     <section className="we-stand">

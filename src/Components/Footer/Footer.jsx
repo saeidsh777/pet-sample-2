@@ -1,7 +1,17 @@
 import React from "react";
-import "./Footer.css";
-import { Clock, Github, Key, Linkedin, PinMap, Telegram, Twitter } from "react-bootstrap-icons";
 import { Link } from "react-router-dom";
+
+import {
+  Clock,
+  Github,
+  Key,
+  Linkedin,
+  PinMap,
+  Telegram,
+} from "react-bootstrap-icons";
+
+import "./Footer.css";
+
 export default function Footer() {
   return (
     <>
@@ -11,7 +21,7 @@ export default function Footer() {
             <div className="col-md-6 col-lg-3">
               <div className="d-flex align-items-center gap-2 mb-4 justify-content-center justify-content-md-start">
                 <img width="30rem" src="/images/header-logo.png" alt="logo" />
-                <h3 className="mb-0">PetsM4</h3>
+                <h3 className="mb-0">Pets</h3>
               </div>
 
               <div className="d-flex align-items-center gap-3 justify-content-center justify-content-md-start">
@@ -82,7 +92,8 @@ export default function Footer() {
 
         <div className="copy-rigth orng-b p-5 d-flex justify-content-center align-items-center">
           <h4 className="white-t word-break">
-            Developer: <span className="fw-bold">SAEID SHOJAEI</span> - All Rights Reserved
+            Developer: <span className="fw-bold">SAEID SHOJAEI</span> - All
+            Rights Reserved
           </h4>
         </div>
       </section>
