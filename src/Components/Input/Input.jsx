@@ -17,7 +17,7 @@ const reducer = (state, action) => {
   }
 };
 
-export default function Input({ type, changeHandeler, id }) {
+export default function Input({ type, changeHandeler, id, emptyValue }) {
   const [counter, setCounter] = useState("");
   const [inputState, dispatch] = useReducer(reducer, {
     value: "",
@@ -26,12 +26,17 @@ export default function Input({ type, changeHandeler, id }) {
   let { value } = inputState;
 
   useEffect(() => {
-   changeHandeler(id, value);
+    changeHandeler(id, value);
   }, [value]);
 
   useEffect(() => {
     changeHandeler(id, counter);
   }, [counter]);
+
+  useEffect(() => {
+    setCounter('')
+    dispatch({ type: "CHANGE_INPUT", value: "" });
+  }, [emptyValue]);
 
   const changeCount = (action) => {
     if (counter < 100) {

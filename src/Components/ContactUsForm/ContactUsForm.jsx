@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import SelectInput from "../SelectInput/SelectInput";
 import Input from "../Input/Input";
 import { useForm } from "../../hooks/useForm";
@@ -6,6 +6,7 @@ import { useForm } from "../../hooks/useForm";
 import "./ContactUsForm.css";
 
 export default function ContactUsForm() {
+  const [emptyValue, setEmptyValue] = useState(false);
   const [formState, changeHandeler] = useForm({
     emailForm: { value: "" },
     day: { value: "" },
@@ -18,7 +19,9 @@ export default function ContactUsForm() {
       method: "POST",
       headers: { "Content-json": "application/json" },
       body: JSON.stringify(formState.inputs),
-    }).then((res) => {});
+    }).then((res) => {
+      res.ok && setEmptyValue(!emptyValue);
+    });
   };
 
   return (
@@ -28,11 +31,25 @@ export default function ContactUsForm() {
         <h2>Contact Us</h2>
 
         <div className="form-inputs d-flex flex-column gap-3">
-          <SelectInput id="typePet" changeHandeler={changeHandeler} />
+          <SelectInput
+            id="typePet"
+            changeHandeler={changeHandeler}
+            emptyValue={emptyValue}
+          />
 
-          <Input type="number" id="day" changeHandeler={changeHandeler} />
+          <Input
+            type="number"
+            id="day"
+            changeHandeler={changeHandeler}
+            emptyValue={emptyValue}
+          />
 
-          <Input type="email" id="emailForm" changeHandeler={changeHandeler} />
+          <Input
+            type="email"
+            id="emailForm"
+            changeHandeler={changeHandeler}
+            emptyValue={emptyValue}
+          />
 
           <button
             className="btn-c2 w-100 d-block"
