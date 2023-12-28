@@ -1,10 +1,37 @@
-import React, { useState } from "react";
+import React, { useState, useReducer, useEffect } from "react";
 import { CaretDownFill, CaretUpFill } from "react-bootstrap-icons";
 
 import "./Input.css";
 
-export default function Input({ type }) {
+const reducer = (state, action) => {
+  switch (action.type) {
+    case "CHANGE_INPUT": {
+      return {
+        ...state,
+        value: action.value,
+      };
+    }
+
+    default:
+      state;
+  }
+};
+
+export default function Input({ type, changeHandeler, id }) {
   const [counter, setCounter] = useState("");
+  const [inputState, dispatch] = useReducer(reducer, {
+    value: "",
+  });
+
+  let { value } = inputState;
+
+  useEffect(() => {
+   changeHandeler(id, value);
+  }, [value]);
+
+  useEffect(() => {
+    changeHandeler(id, counter);
+  }, [counter]);
 
   const changeCount = (action) => {
     if (counter < 100) {
@@ -45,7 +72,15 @@ export default function Input({ type }) {
       )}
 
       {type === "email" && (
-        <input className="input" type="email" placeholder="email" />
+        <input
+          className="input"
+          type="email"
+          placeholder="email"
+          value={value}
+          onChange={(e) =>
+            dispatch({ type: "CHANGE_INPUT", value: e.target.value })
+          }
+        />
       )}
     </>
   );

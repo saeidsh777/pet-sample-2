@@ -3,7 +3,7 @@ import { CaretDownFill } from "react-bootstrap-icons";
 
 import "./SelectInput.css";
 
-export default function SelectInput() {
+export default function SelectInput({ changeHandeler,id }) {
   const [inputSelectValue, setInputSelectValue] = useState("Dog Boarding");
   const selectListElem = useRef();
   const selectTagElem = useRef();
@@ -20,6 +20,10 @@ export default function SelectInput() {
 
     return () => document.removeEventListener("mouseup", mouseEventClick);
   }, []);
+
+  useEffect(()=>{
+    changeHandeler(id,inputSelectValue)
+  },[inputSelectValue])
 
   const showSelectList = (e) => {
     e.button == 0 && selectListElem.current.classList.toggle("d-block");
